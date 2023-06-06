@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "productName": "Snow Queen",
+    "from": "Sabyashi Mukherjee",
+    "price": "5,000",
+    "summary": "lorem ipsum heheh",
+    "image": "img1.jpg",
+    "description": "Sabyasachi Mukherjee is one of the most noted Indian designers. His collection includes elaborate anarkalis, sarees, suits and a mix of traditional and contemporary gowns. Notably, Sabyasachi’s wedding lehengas have given a new meaning to bridal wear by adding glamour to silhouettes of Indian culture."
+  },
+  {
+    "id": 1,
+    "productName": "Regal Red",
+    "from": "Sabyashi Mukherjee",
+    "price": "7,000",
+    "summary": "lorem ipsum heheh",
+    "image": "img2.webp",
+    "description": "Sabyasachi Mukherjee is one of the most noted Indian designers. His collection includes elaborate anarkalis, sarees, suits and a mix of traditional and contemporary gowns. Notably, Sabyasachi’s wedding lehengas have given a new meaning to bridal wear by adding glamour to silhouettes of Indian culture."
+  },
+  {
+    "id": 2,
+    "productName": "Blushing Rose",
+    "from": "Manish Malhotra",
+    "price": "6,500",
+    "summary": "lorem ipsum heheh",
+    "image": "0def0c59a9f5426f26f503930e6d895a.jpg",
+    "description": "Sabyasachi Mukherjee is one of the most noted Indian designers. His collection includes elaborate anarkalis, sarees, suits and a mix of traditional and contemporary gowns. Notably, Sabyasachi’s wedding lehengas have given a new meaning to bridal wear by adding glamour to silhouettes of Indian culture."
+  },
+  {
+    "id": 3,
+    "productName": "Ethereal Elegance",
+    "from": "Sabyashi Mukherjee",
+    "price": "8,910",
+    "summary": "lorem ipsum heheh",
+    "image": "67f602073608d4d0fe57520ac27cf7dc.jpg",
+    "description": "Sabyasachi Mukherjee is one of the most noted Indian designers. His collection includes elaborate anarkalis, sarees, suits and a mix of traditional and contemporary gowns. Notably, Sabyasachi’s wedding lehengas have given a new meaning to bridal wear by adding glamour to silhouettes of Indian culture."
+  },
+  {
+    "id": 4,
+    "productName": "Royal Romance",
+    "from": "Sabyashi Mukherjee",
+    "price": "4,000",
+    "summary": "lorem ipsum heheh",
+    "image": "619225f074c170689f0da4324c230826.jpg",
+    "description": "Sabyasachi Mukherjee is one of the most noted Indian designers. His collection includes elaborate anarkalis, sarees, suits and a mix of traditional and contemporary gowns. Notably, Sabyasachi’s wedding lehengas have given a new meaning to bridal wear by adding glamour to silhouettes of Indian culture."
+  },
+  {
+    "id": 5,
+    "productName": "Enchanting Ivory",
+    "from": "Sabyashi Mukherjee",
+    "price": "4,999",
+    "summary": "lorem ipsum heheh",
+    "image": "a06f15c6be19cd94c61436fc2f744d7a.jpg",
+    "description": "Sabyasachi Mukherjee is one of the most noted Indian designers. His collection includes elaborate anarkalis, sarees, suits and a mix of traditional and contemporary gowns. Notably, Sabyasachi’s wedding lehengas have given a new meaning to bridal wear by adding glamour to silhouettes of Indian culture."
+  },
+  {
+    "id": 6,
+    "productName": "Golden Glamour",
+    "from": "Sabyashi Mukherjee",
+    "price": "5,030",
+    "summary": "lorem ipsum heheh",
+    "image": "fe0b651f8f1adde2351b486597400af7.jpg",
+    "description": "Sabyasachi Mukherjee is one of the most noted Indian designers. His collection includes elaborate anarkalis, sarees, suits and a mix of traditional and contemporary gowns. Notably, Sabyasachi’s wedding lehengas have given a new meaning to bridal wear by adding glamour to silhouettes of Indian culture."
+  },
+  {
+    "id": 7,
+    "productName": "Pastel Dream",
+    "from": "Sabyashi Mukherjee",
+    "price": "5,260",
+    "summary": "lorem ipsum heheh",
+    "image": "b53044acfab910c3bf8e87b4ea226b30.jpg",
+    "description": "Sabyasachi Mukherjee is one of the most noted Indian designers. His collection includes elaborate anarkalis, sarees, suits and a mix of traditional and contemporary gowns. Notably, Sabyasachi’s wedding lehengas have given a new meaning to bridal wear by adding glamour to silhouettes of Indian culture."
+  }
+]

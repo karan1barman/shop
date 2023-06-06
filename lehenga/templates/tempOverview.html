@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Lora:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+      }
+
+      .header {
+        background-image: linear-gradient(to right bottom, #7ed56f90, #28b48590),
+          url(../cards/Sabyasachi-couture.webp);
+        height: 95vh;
+        position: relative;
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+      }
+
+      .header__text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .header__text-box {
+        padding-bottom: 8rem;
+      }
+
+      .heading__primary--main {
+        display: block;
+        font-size: 6rem;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+      }
+      .heading__primary--sub {
+        display: block;
+        font-size: 2rem;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 21px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all 0.2s;
+        position: relative;
+        font-size: 1.6rem;
+        animation-name: moveInBottom;
+        animation-duration: 1s;
+        word-spacing: 0.5rem;
+        margin: 2rem;
+      }
+      .btn-white {
+        background-color: #fff;
+        color: #777;
+      }
+      .btn-white::after {
+        background-color: #fff;
+      }
+      .btn-green {
+        background-color: #7ed56f;
+        color: #fff;
+      }
+      .btn-green::after {
+        background-color: #7ed56f;
+      }
+      /* .main {
+        position: relative;
+      } */
+
+      .products {
+        max-width: 120rem;
+        display: grid;
+        margin: 0 auto;
+
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        row-gap: 7rem;
+      }
+
+      .card {
+        width: 35rem;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+        text-align: center;
+      }
+
+      .card-bg {
+        background-image: linear-gradient(
+          to right bottom,
+          #7ed56f90,
+          #28b48590
+        );
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 30rem;
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+      }
+      .card-bg img {
+        mix-blend-mode: overlay;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-position: top;
+      }
+
+      .card-details {
+        padding: 1rem 3rem;
+        list-style: none;
+        line-height: 1.3;
+      }
+
+      .card-details li {
+        color: #777;
+        font-size: 1.7rem;
+        padding: 1rem;
+      }
+
+      .card-details li:not(:last-child) {
+        border-bottom: 2px solid #999;
+      }
+
+      .card:last-child {
+        margin: 0 !important;
+      }
+
+      main {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+      }
+
+      .heading__secondary {
+        font-size: 5rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-left: 50%;
+        width: fit-content;
+        margin-bottom: 4rem;
+        transform: translateX(-50%);
+      }
+    </style>
+    <header class="header">
+      <div class="header__text">
+        <div class="header__text-box">
+          <h1 class="heading__primary">
+            <span class="heading__primary--main">Baharla</span>
+            <span class="heading__primary--sub">bridal lehangas</span>
+          </h1>
+        </div>
+        <a href="#" class="btn btn-white">Discover all lehangas</a>
+      </div>
+    </header>
+    <main>
+      <h2 class="heading__secondary">bridal lehangas</h2>
+      <div class="products">{%PRODUCT_CARDS%}</div>
+    </main>
+  </body>
+</html>
